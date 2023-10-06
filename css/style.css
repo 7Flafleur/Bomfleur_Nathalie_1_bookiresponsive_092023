@@ -375,6 +375,7 @@ align-self: stretch;
     
     
     
+    
 
 }
 
@@ -449,7 +450,7 @@ line-height: normal;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin:0;;
+    margin:0;
 }
 
 .populaires-cards .card {
@@ -720,6 +721,7 @@ line-height: normal;
         height: 64.3px;
         padding: 0 2% 1% 2%;
         gap: 0;
+        font: size 14px;
         
         
     }

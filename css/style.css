@@ -91,8 +91,8 @@ a {
 
 h4{
 
-color: #000;
-font-family: Raleway;
+
+
 font-size: 16px;
 font-style: normal;
 font-weight: 700;
@@ -135,8 +135,6 @@ line-height: normal;
     #menu  a{
     
     padding: 20px;
-    color: #000;
-    font-family: Raleway;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -168,8 +166,7 @@ line-height: normal;
     align-items: flex-start;
     align-self: stretch;
     box-sizing: border-box;
-    color: #000;
-font-family: Raleway;
+    c
 font-size: 10px;
 font-style: normal;
 font-weight: 700;
@@ -177,8 +174,7 @@ line-height: normal;
 }
 
 h2{
-    color: #000;
-font-family: Raleway;
+    
 font-size: 22px;
 font-style: normal;
 font-weight: 700;
@@ -189,8 +185,7 @@ margin:0;
 
     #headline > p{
       
-    color: #000;
-    font-family: Raleway;
+   
     font-size: 1rem;
     font-style: normal;
     font-weight: 400;
@@ -238,9 +233,8 @@ margin:0;
 
 #recherche::placeholder{
         
-    color: #000;
+    
     text-align: center;
-    font-family: Raleway;
     font-size: 1.125rem;
     font-style: normal;
     font-weight: 700;
@@ -251,7 +245,6 @@ margin:0;
     display: none;
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -267,7 +260,6 @@ margin:0;
     display: inline;
     color: var(--White, #FFF);
     text-align: center;
-    font-family: Raleway;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -290,14 +282,12 @@ margin:0;
     justify-content: space-evenly;
     align-items: center;
     gap: 15px;
-    color: #000;
+    
     text-align: center;
     }
 
 #filtresh{
-    color: #000;
 text-align: center;
-font-family: Raleway;
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -320,11 +310,11 @@ margin:0;
     border-radius: 25px;
     border: 2px solid var(--grey-tint-2, #D9D9D9);
     color: var(--Black, #000);
-font-family: Raleway;
-font-size: 17px;
-font-style: normal;
-font-weight: 700;
-line-height: normal;
+    
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
     }
     
 
@@ -334,10 +324,10 @@ line-height: normal;
 
     .infobar{
         display: flex;
-height: 24px;
-align-items: center;
-gap: 10px;
-align-self: stretch;
+        height: 24px;
+        align-items: center;
+        gap: 10px;
+        align-self: stretch;
     }
 
 /****** Hebergements And Populaires ***********/
@@ -372,11 +362,6 @@ align-self: stretch;
     flex-wrap: wrap;
     gap:3%;
     
-    
-    
-    
-    
-
 }
 
 .hébergements .card-content {
@@ -416,7 +401,7 @@ align-self: stretch;
 .hébergements-cards .article{
 
     height: 55%;
-    width:31%;
+    width: 31.1%;
     
 }
 
@@ -429,10 +414,9 @@ p.card-subtitle {
 
     margin-bottom:0;
     padding: 0;
-    color: #000;
+    
 
-/* Title/Filter */
-font-family: Raleway;
+
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -549,7 +533,7 @@ border-radius: 20px 20px 0px 0px;
         border-radius: 0px 0px 20px 20px;
         background: var(--White, #FFF);
         color: #000;
-        font-family: Raleway;
+   
         font-size: 16px;
         font-style: normal;
         font-weight: 700;
@@ -663,11 +647,10 @@ border-radius: 20px 20px 0px 0px;
 
     #filtreshmobile{
         display:inline;
-        color: #000;
+      
 text-align: center;
 
-/* Title/Filter */
-font-family: Raleway;
+
 font-size: 18px;
 font-style: normal;
 font-weight: 700;
@@ -699,19 +682,14 @@ line-height: normal;
     }
 
     .hébergements-cards{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        width:100%;
-        gap:3.5%; 
-        margin:0;
-        align-items: center;
+       display:grid;
+       grid-template-columns: 31% 31% 31%;
+      
     }
 
     .hébergements-cards .article{
 
-        width:30.2%;
-        
+       width: 100%;
     }
 
 
@@ -794,14 +772,13 @@ line-height: normal;
     }
 
     .acticard .card-img{
-        height:193px;
+        height:68%;
         object-fit:cover;
     }
     
     .cardcontainer{
 
         display: flex;
-        height:26%;
         width:100%;
     
         
@@ -985,9 +962,8 @@ line-height: normal;
  
     #filtreshmobile{
         display: block;
-        color: #000;
+        
         text-align: center;
-        font-family: Raleway;
         font-size: 18px;
         font-style: normal;
         font-weight: 700;
@@ -1006,7 +982,7 @@ line-height: normal;
         border-radius: 25px;
         border: 2px solid #D9D9D9;
         color:  #000;
-        font-family: Raleway;
+       
         font-size: 14px;
         font-style: normal;
         font-weight: 700;
@@ -1024,11 +1000,10 @@ line-height: normal;
 
         .infobar{
             width:100%;
-            color: #000;
+            
             
 
-/* Information */
-font-family: Raleway;
+
 font-size: 16px;
 font-style: normal;
 font-weight: 400;

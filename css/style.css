@@ -166,7 +166,7 @@ line-height: normal;
     align-items: flex-start;
     align-self: stretch;
     box-sizing: border-box;
-    c
+    
 font-size: 10px;
 font-style: normal;
 font-weight: 700;
@@ -700,7 +700,7 @@ line-height: normal;
         height: 64.3px;
         padding: 0 2% 1% 2%;
         gap: 0;
-        font: size 14px;
+        font-size:  14px;
         
         
     }

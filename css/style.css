@@ -233,7 +233,8 @@ margin:0;
 
 #recherche::placeholder{
         
-    
+    opacity : 1;
+    color : black;
     text-align: center;
     font-size: 1.125rem;
     font-style: normal;
